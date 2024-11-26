@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh; /* ตั้งความสูงเป็น 100vh เพื่อให้ครอบคลุม viewport ทั้งหมด */
+    background: url(img/4.png) repeat;
+    background-color: #000e17; /* เพิ่มสีพื้นหลังสีน้ำเงิน */
+    background-size: 100vw 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0; /* ลบ margin ของ body เริ่มต้น */
+}
+
+.table-container {
+    max-width: 900px;
+    width: 100%; /* ตั้งความกว้างเป็น 100% */
+    overflow-x: auto; /* เพิ่มการเลื่อนแนวนอนเมื่อจำเป็น */
+}
+
+.wrapper {
+    margin-top: 50px; /* ปรับตำแหน่งตามต้องการ */
+    width: 1020px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+}
+.wrapper .table-container .tr .th {
+    color: #fff;
+}
+.table-container th,
+.table-container td {
+    color: white;
+    width: 150px; /* ปรับขนาดตามที่ต้องการ */
+}
+.wrapper .alert {
+    font-weight: bold;
+}

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
+
+body {
+
+    background-color: #ffffff;
+    background-position: top left;
+    background-repeat: repeat;
+}
+.banner img{
+    padding: 0;
+    margin: 0px 0 60px 0;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.pro { /*กรอบรูป  เขียว 9bba74*/
+    width: 23%;
+    min-width: 270px;
+    padding: 5px 12px 3px;
+    border: 2px solid #bda562 ;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0,0,0,.2);
+    margin: 20px;
+    transition: 0.2s ease;
+    background-color: #fbfbfb ;
+}
+.pro:hover{
+    box-shadow: 10px 10px 15px rgba(0,0,0,.6);
+}
+.pro img{
+    width: 100%;
+    border-radius: 13px;
+}
+
+.pro h5{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 20px;
+}
+.pro h6{
+    text-align: center;
+    padding: 0px 0 5px 0;
+    font-size: 17px;
+}
+.pro a{
+
+    margin: 3px;
+}
+.pluss a{
+   border-radius: 30px;
+}
+.ship{
+    text-align: center;
+}
+
+/* ----- Detail -------*/
+
+.sh_dt img{
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 35px;
+}
+
+.detail{
+    margin-top: 50px;
+    padding: 30px 30px 30px 30px;
+    border: 2px solid #14130e ;
+    border-radius: 35px;
+    width: 700px;
+    background-color: #c6c6f8;
+    
+}
+.detail h4{
+    padding : 0 0 5px 0;
+}
+.imgfdt{
+    text-align: center;
+    
+    
+}
+
+.detail button{
+    color: #ffffff;
+    background-color: #bda562;
+    padding: 20px;
+}
+.boxx{
+    text-align: center;
+}
+
+/*----- cart -------*/
+.order {
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.info {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color: #C48D60;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 25px;
+   
+}
+.tab{
+    background-color: #ffffff;
+    margin: 20px 0 20px 0;
+    padding-bottom: 15px;
+    border-radius: 25px;
+}
+
+/*---- print order ----*/
+.success{
+    margin: 25px 0 25px 0;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color: #c0aa6e;
+    color: #4a3c14;
+    font-size: 25px;
+    border-radius: 25px;
+}
+.ooo{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color: rgb(244, 230, 189);
+    color: #4a3c14;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.ooo img{
+    border-radius: 25px;
+    width: 200px;
+    margin-bottom: 25px;
+}
